@@ -1,3 +1,20 @@
-// .header {
-//     color: red;
-// }
+.webnavbar {
+    background-color: $primary_background;
+    padding: 30px 0px 20px 0px;
+
+    ul {
+        margin-left: auto;
+
+        .nav-item {
+            margin-right: 30px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                color: $primary_color;
+            }
+        }
+    }
+}

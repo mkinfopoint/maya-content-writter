@@ -1,3 +1,3 @@
 // all icons import here
-
-export { }
+import { GiDiamonds } from "react-icons/gi";
+export { GiDiamonds }

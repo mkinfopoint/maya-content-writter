@@ -1,6 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@font-face {
+  font-family: "Ninetail";
+  src: url("../../assets/fonts/Ninetail-regular.otf");
+}
+@font-face {
+  font-family: "Thiccboi";
+  src: url("../../assets/fonts/THICCCBOI-Regular.ttf");
+}
 * {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Thiccboi", sans-serif;
+}
+
+.webnavbar {
+  background-color: #FFF8F3;
+  padding: 30px 0px 20px 0px;
+}
+.webnavbar ul {
+  margin-left: auto;
+}
+.webnavbar ul .nav-item {
+  margin-right: 30px;
+}
+.webnavbar ul .nav-item:last-child {
+  margin-right: 0;
+}
+.webnavbar ul .nav-item a {
+  color: #C47D3D;
 }/*# sourceMappingURL=style.css.map */
