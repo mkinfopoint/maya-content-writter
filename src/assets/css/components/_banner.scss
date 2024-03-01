@@ -1,0 +1,55 @@
+.total_banner_sec {
+    padding-top: 180px;
+    background-color: $primary_background;
+    height: 85vh;
+
+    .head {
+        font-family: "Ninetail";
+        color: $primary_color;
+        font-size: 48px;
+    }
+
+    .quote {
+        font-size: 52px;
+        color: $primary_color;
+        font-weight: 700;
+    }
+
+    .parra_sec {
+        width: 90%;
+
+        h6 {
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p {
+            text-align: right;
+            font-weight: 500;
+            color: $primary_color;
+        }
+    }
+
+    .btnsec {
+        margin-top: 15px;
+
+        .hire_btn {
+            font-family: "Ninetail";
+            color: $text_white;
+            background-color: $primary_color;
+            border-radius: 25px;
+            font-size: 26px;
+            padding: 8px 50px;
+            box-shadow: 1px 1px 1px 0px $primary_color;
+        }
+    }
+
+    .img_sec {
+        img {
+            width: 80%;
+            display: block;
+            margin: auto;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo } from '../assets/images'
+import { elepse, logo } from '../assets/images'
 import { GiDiamonds } from '../config/icons'
 const Navbar = () => {
     return (
@@ -9,6 +9,7 @@ const Navbar = () => {
                     <a className="navbar-brand" href="#">
                         <img src={logo} alt="" />
                     </a>
+                    <img src={elepse} alt="elipse" className="elipse" />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
