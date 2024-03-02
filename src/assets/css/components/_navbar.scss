@@ -18,13 +18,32 @@
         .nav-item {
             margin-right: 30px;
 
+
+
             &:last-child {
                 margin-right: 0;
             }
 
             a {
                 color: $primary_color;
+
+                .star {
+                    width: 20px;
+                    display: none;
+                }
+
+                &:hover {
+                    transition: 0.5s ease-in-out;
+                    font-weight: 600;
+
+
+                    .star {
+                        transition: 0.5s ease-in-out;
+                        display: initial;
+                    }
+                }
             }
+
         }
     }
 }

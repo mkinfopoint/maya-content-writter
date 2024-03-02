@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <h1 className='head'>
-                                Im Audrey Joann, <br />
+                                Im <span>Audrey Joann,</span> <br />
                                 Content Writer
                             </h1>
                             <span className='quote'>“</span>

@@ -26,3 +26,7 @@ $bold_font: "Thiccboi_Bold";
 @import "./inc/";
 @import "./components/";
 @import "./screens/";
+
+.rfm-marquee-container {
+    overflow-y: hidden !important;
+}

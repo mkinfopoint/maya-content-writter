@@ -1,0 +1,107 @@
+.total_footer_sec {
+    background-color: $primary_background;
+    padding: 50px 0px;
+
+    .bottom_content {
+        text-align: center;
+        color: $primary_color;
+        margin-top: 30px;
+
+        span {
+            color: $text_black;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    }
+
+    .total_contentsec {
+        display: flex;
+        justify-content: space-between;
+
+        .left_sec {
+            width: 30%;
+
+            .namesec {
+                img {
+                    width: 90%;
+                }
+            }
+
+            .content {
+                text-align: justify;
+                color: $dark_background;
+                margin-top: 30px;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+
+            .social_sec {
+                display: flex;
+
+                span {
+                    width: 30px;
+                    height: 30px;
+                    background-color: $primary_color;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10px;
+
+                    a {
+                        text-decoration: none;
+                        color: $text_white;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .right_sec {
+            text-align: right;
+
+            .hireme_btn {
+                background-color: #C47D3D;
+                color: #FFFFFF;
+                font-family: "Ninetail";
+                border-radius: 25px;
+                padding: 5px 35px;
+                font-size: 22px;
+                border: 1px solid #C47D3D;
+
+                &:hover {
+                    background-color: $text_white;
+                    color: $primary_color;
+                    border: 1px solid $primary_color;
+                    transition: 0.3s ease-in-out;
+                }
+            }
+
+            .address_sec {
+                text-align: right;
+                margin-top: 30px;
+
+                a {
+                    display: flex;
+                    justify-content: end;
+                    color: $dark_background;
+                    text-decoration: none;
+                    margin-bottom: 15px;
+                    font-size: 14px;
+
+                    span {
+                        display: block;
+                    }
+
+                    .icon {
+                        margin-left: 20px;
+                        color: $primary_color;
+                    }
+                }
+            }
+        }
+    }
+
+}

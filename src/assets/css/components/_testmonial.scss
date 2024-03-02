@@ -18,4 +18,143 @@
             color: $primary_color;
         }
     }
+
+    .total_carouselsec {
+        .testimonial_carousel {
+
+            .testimonial_card {
+                background-color: $text_white;
+                padding: 30px;
+                border-radius: 5px;
+                border: 1px solid $primary_color;
+                position: relative;
+
+                .illu {
+                    position: absolute;
+                    width: 40px;
+                    right: -3%;
+                    top: -7%;
+                    display: none;
+                }
+
+                .rating_sec {
+                    display: flex;
+                    align-items: center;
+
+                    .iconsec {
+                        margin-bottom: 4px;
+                        margin-right: 5px;
+
+                        span {
+                            color: #FFD056;
+                        }
+                    }
+
+                    h5 {
+                        margin-bottom: 0;
+                        color: $primary_color;
+                    }
+                }
+
+                .feed_back {
+                    margin-top: 20px;
+
+                    .name {
+                        color: $text_black;
+                        font-weight: 600;
+                    }
+                }
+
+                .total_desig_sec {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 20px;
+
+                    img {
+                        width: 45px;
+                    }
+
+                    .desigsec {
+                        h5 {
+                            color: $primary_color;
+                            font-family: $secondary_font;
+                            margin-bottom: 0;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+
+        .owl-carousel .owl-stage-outer {
+            padding: 50px 0px !important;
+        }
+
+        .owl-carousel.owl-drag .owl-item.center .item {
+            // background: rgb(25, 0, 255);
+            transform: scale(1.2);
+            padding: 0px !important;
+            overflow: visible !important;
+            // border: 1px solid #0048f0;
+            border-radius: 15px;
+            margin: 10px !important;
+
+            .illu {
+                display: block !important;
+            }
+        }
+
+        .owl-carousel .owl-nav button.owl-prev {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid $primary_color;
+            position: absolute;
+            bottom: 50%;
+            left: -5%;
+        }
+
+        .owl-carousel .owl-nav button.owl-next {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid $primary_color;
+            position: absolute;
+            bottom: 50%;
+            right: -5%;
+        }
+
+        .owl-theme .owl-nav [class*="owl-"] {
+            background: $text_white !important;
+            padding: 0 !important;
+            color: $primary_color !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .owl-carousel .owl-nav.disabled,
+        .owl-carousel .owl-dots.disabled {
+            display: block !important;
+        }
+
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background-color: $primary_color;
+        }
+
+        .owl-theme .owl-dots .owl-dot span {
+            background: #F2E2D4;
+        }
+    }
 }
