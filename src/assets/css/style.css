@@ -81,4 +81,95 @@
   width: 80%;
   display: block;
   margin: auto;
+}
+
+.total_marquesec {
+  padding: 50px 0px;
+}
+.total_marquesec .marquee_sec .first_head {
+  display: flex;
+  align-items: center;
+}
+.total_marquesec .marquee_sec .first_head h1 {
+  margin-bottom: 0;
+  font-family: "Ninetail";
+  color: #C47D3D;
+}
+.total_marquesec .marquee_sec .first_head span {
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: "Ninetail";
+  color: #000000;
+}
+.total_marquesec .marquee_sec .first_head span svg {
+  font-size: 26px;
+}
+.total_marquesec .writer_sec {
+  margin-top: 50px;
+  position: relative;
+}
+.total_marquesec .writer_sec .illu {
+  position: absolute;
+  width: 10%;
+  right: 0%;
+}
+.total_marquesec .writer_sec .writer_img img {
+  width: 100%;
+}
+.total_marquesec .writer_sec .content_sec {
+  padding: 60px 0px;
+  margin-left: 60px;
+}
+.total_marquesec .writer_sec .content_sec .sec_one {
+  display: flex;
+}
+.total_marquesec .writer_sec .content_sec .sec_one:nth-child(2) {
+  margin-top: 5px;
+}
+.total_marquesec .writer_sec .content_sec .sec_one .img_sec .illustrator {
+  width: 45%;
+}
+.total_marquesec .writer_sec .content_sec .sec_one .img_sec .star_img {
+  width: 90%;
+}
+.total_marquesec .writer_sec .content_sec .sec_one .content {
+  width: 80%;
+}
+.total_marquesec .writer_sec .content_sec .sec_one .content h1 {
+  font-family: "Ninetail";
+}
+.total_marquesec .writer_sec .content_sec .sec_one .content h1 span {
+  font-family: "Ninetail";
+}
+.total_marquesec .writer_sec .content_sec .sec_one .content h1 .name {
+  color: #C47D3D;
+}
+.total_marquesec .writer_sec .content_sec .sec_one .content p {
+  text-align: justify;
+}
+.total_marquesec .writer_sec .content_sec .sec_one .content p .parra_bold {
+  font-weight: 600;
+}
+.total_marquesec .writer_sec .content_sec .sec_one .content h6 {
+  font-weight: 600;
+  margin-left: 28px;
+}
+.total_marquesec .writer_sec .content_sec .primary_btns {
+  display: block;
+  margin-top: 50px;
+  background-color: #C47D3D;
+  color: #FFFFFF;
+  font-family: "Ninetail";
+  border-radius: 25px;
+  padding: 8px 35px;
+  font-size: 18px;
+  border: 1px solid #C47D3D;
+  margin-left: 55px;
+}
+.total_marquesec .writer_sec .content_sec .primary_btns:hover {
+  background-color: #FFFFFF;
+  color: #C47D3D;
+  border: 1px solid #C47D3D;
+  transition: 0.3s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

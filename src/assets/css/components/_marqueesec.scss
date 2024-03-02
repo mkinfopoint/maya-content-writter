@@ -1,0 +1,123 @@
+.total_marquesec {
+    padding: 50px 0px;
+
+    .marquee_sec {
+        .first_head {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                margin-bottom: 0;
+                font-family: $secondary_font;
+                color: $primary_color;
+            }
+
+            span {
+                display: block;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-family: $secondary_font;
+                color: $text_black;
+
+                svg {
+                    font-size: 26px;
+                }
+            }
+
+        }
+
+
+    }
+
+    .writer_sec {
+        margin-top: 50px;
+        position: relative;
+
+        .illu {
+            position: absolute;
+            width: 10%;
+            right: 0%;
+        }
+
+
+        .writer_img {
+            img {
+                width: 100%;
+            }
+        }
+
+        .content_sec {
+            padding: 60px 0px;
+            margin-left: 60px;
+
+            .sec_one {
+                display: flex;
+
+                &:nth-child(2) {
+                    margin-top: 5px;
+                }
+
+                .img_sec {
+                    .illustrator {
+                        width: 45%;
+                    }
+
+                    .star_img {
+                        width: 90%;
+                    }
+                }
+
+                .content {
+                    width: 80%;
+
+                    h1 {
+                        font-family: $secondary_font;
+
+                        span {
+                            font-family: $secondary_font;
+                        }
+
+                        .name {
+                            color: $primary_color;
+                        }
+                    }
+
+                    p {
+                        text-align: justify;
+
+                        .parra_bold {
+                            font-weight: 600;
+                        }
+                    }
+
+                    h6 {
+                        font-weight: 600;
+                        margin-left: 28px;
+                    }
+
+                }
+
+            }
+
+            .primary_btns {
+                display: block;
+                margin-top: 50px;
+                background-color: $primary_color;
+                color: $text_white;
+                font-family: $secondary_font;
+                border-radius: 25px;
+                padding: 8px 35px;
+                font-size: 18px;
+                border: 1px solid $primary_color;
+                margin-left: 55px;
+
+                &:hover {
+                    background-color: $text_white;
+                    color: $primary_color;
+                    border: 1px solid $primary_color;
+                    transition: 0.3s ease-in-out;
+                }
+            }
+        }
+    }
+}
