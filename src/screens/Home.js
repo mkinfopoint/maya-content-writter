@@ -7,6 +7,9 @@ import Unleashing from '../components/Unleashing'
 import ServiceOffered from '../components/ServiceOffered'
 import DidBeforeSec from '../components/DidBeforeSec'
 import Testimonial from '../components/Testimonial'
+import FormSec from '../components/FormSec'
+import BlogSec from '../components/BlogSec'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -19,6 +22,9 @@ const Home = () => {
             <ServiceOffered />
             <DidBeforeSec />
             <Testimonial />
+            <FormSec />
+            <BlogSec />
+            <Footer />
         </>
     )
 }

@@ -1,0 +1,127 @@
+.total_blogsec {
+    padding: 50px 0px;
+    background-color: $primary_background;
+    position: relative;
+
+    .see_allbtn {
+        position: absolute;
+        right: 45%;
+        background-color: #C47D3D;
+        color: #FFFFFF;
+        font-family: "Ninetail";
+        border-radius: 25px;
+        padding: 5px 35px;
+        font-size: 20px;
+        border: 1px solid #C47D3D;
+        bottom: -2.5%;
+
+
+        &:hover {
+            background-color: $text_white;
+            color: $primary_color;
+            border: 1px solid $primary_color;
+            transition: 0.3s ease-in-out;
+        }
+    }
+
+    .head_star_sectwo {
+        color: $primary_color;
+        justify-content: center;
+
+        span {
+            color: $dark_background;
+        }
+    }
+
+    .total_carouselsec {
+        margin-top: 30px;
+
+        .owl-carousel .owl-nav.disabled {
+            display: block !important;
+        }
+
+        .owl-carousel .owl-nav button.owl-prev {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid $primary_color;
+            position: absolute;
+            bottom: 50%;
+            left: -5%;
+            display: none;
+        }
+
+        .owl-carousel .owl-nav button.owl-next {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid $primary_color;
+            position: absolute;
+            bottom: 50%;
+            right: -5%;
+        }
+
+        .owl-theme .owl-nav [class*="owl-"] {
+            background: $text_white !important;
+            padding: 0 !important;
+            color: $primary_color !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blogs_card {
+            padding: 20px;
+            border-radius: 5px;
+
+            img {
+                width: 100%;
+            }
+
+            .content_para {
+                .readmore {
+                    color: $primary_color;
+                }
+            }
+
+            .heading {
+                color: $primary_color;
+                font-family: $secondary_font;
+
+            }
+
+            .feature_sec {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+
+                h6 {
+                    margin-bottom: 0;
+                    font-size: 10px;
+                    padding: 5px 15px;
+                    color: $dark_background;
+                    background-color: #EEE8E3;
+                    border-radius: 25px;
+                }
+
+                span {
+                    display: block;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.marquee_sec {
+    padding: 50px 0px;
+}

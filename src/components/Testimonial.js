@@ -1,6 +1,7 @@
 import React from 'react'
 import { GiDiamonds, FaStar } from '../config/icons';
 import OwlCarousel from "react-owl-carousel";
+import { quouteImg, tesmonialIllustrator } from '../assets/images';
 
 const Testimonial = () => {
     const tetimonialData = [
@@ -12,17 +13,17 @@ const Testimonial = () => {
         {
             name: `Henry Arthur`,
             designation: `CEO, Food Express`,
-            parra: `"Audrey Joann is a content maestro! Her writing prowess turns every idea into a captivating masterpiece, breathing life into our brand and enchanting our audience."`
+            parra: `"<span class="name" >Audrey Joann is a content maestro!</span>  Her writing prowess turns every idea into a captivating masterpiece, breathing life into our brand and enchanting our audience."`
         },
         {
             name: `Henry Arthur`,
             designation: `CEO, Food Express`,
-            parra: `"Audrey Joann is a content maestro! Her writing prowess turns every idea into a captivating masterpiece, breathing life into our brand and enchanting our audience."`
+            parra: `"<span class="name" >Audrey Joann is a content maestro!</span>  Her writing prowess turns every idea into a captivating masterpiece, breathing life into our brand and enchanting our audience."`
         },
         {
             name: `Henry Arthur`,
             designation: `CEO, Food Express`,
-            parra: `"Audrey Joann is a content maestro! Her writing prowess turns every idea into a captivating masterpiece, breathing life into our brand and enchanting our audience."`
+            parra: `"<span class="name" >Audrey Joann is a content maestro!</span>  Her writing prowess turns every idea into a captivating masterpiece, breathing life into our brand and enchanting our audience."`
         },
     ]
     return (
@@ -37,10 +38,10 @@ const Testimonial = () => {
                 <div className="container">
                     <div className="total_carouselsec">
                         <OwlCarousel
-                            className="owl-carousel owl-theme"
-                            margin={20}
+                            className="owl-carousel owl-theme testimonial_carousel"
+                            margin={80}
                             center={true}
-                            autoplay={true}
+                            autoplay={false}
                             loop
                             dots={true}
                             nav={true}
@@ -61,7 +62,7 @@ const Testimonial = () => {
                                         "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>"],
                                 },
                                 1000: {
-                                    items: 1,
+                                    items: 2,
                                     dots: true,
                                     nav: true,
                                     navText: ["<div class='nav-button owl-prev'><i class='fa-solid fa-chevron-left'></i></div>",
@@ -74,6 +75,7 @@ const Testimonial = () => {
                                     return (
                                         <div key={index} className="item">
                                             <div className="testimonial_card">
+                                                <img src={tesmonialIllustrator} alt="tesmonialIllustrator" className="illu" />
                                                 <div className="rating_sec">
                                                     <div className="iconsec">
                                                         <span><FaStar /></span>
@@ -87,9 +89,14 @@ const Testimonial = () => {
 
                                                 <p dangerouslySetInnerHTML={{ __html: dat?.parra }} className="feed_back">
                                                 </p>
-                                                <div className="desigsec">
-                                                    <h5>{dat?.name}</h5>
-                                                    <p>{dat?.designation}</p>
+                                                <div className="total_desig_sec">
+                                                    <div>
+                                                        <img src={quouteImg} alt="quote" />
+                                                    </div>
+                                                    <div className="desigsec">
+                                                        <h5 className='role_name'>{dat?.name}</h5>
+                                                        <p className='desig'>{dat?.designation}</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
