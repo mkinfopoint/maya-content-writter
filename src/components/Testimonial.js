@@ -41,7 +41,7 @@ const Testimonial = () => {
                             className="owl-carousel owl-theme testimonial_carousel"
                             margin={80}
                             center={true}
-                            autoplay={false}
+                            autoplay={true}
                             loop
                             dots={true}
                             nav={true}

@@ -7,6 +7,11 @@
         font-family: "Ninetail";
         color: $primary_color;
         font-size: 48px;
+
+        span {
+            font-family: "Ninetail";
+            color: $dark_background;
+        }
     }
 
     .quote {

@@ -1,4 +1,5 @@
 import logo from './logo.png';
+import starShade from './star.png';
 import elepse from './elipse.png';
 import proImg from './profileimg.png';
 import writer from './writer.png';
@@ -21,4 +22,4 @@ import tesmonialIllustrator from './temonialimg.png';
 import blogImg1 from './blogimg.png';
 import footerImg from './footerimg.png';
 
-export { logo, elepse, proImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, carouselIllu, counterImg, quouteImg, tesmonialIllustrator, blogImg1, footerImg }
+export { logo, starShade, elepse, proImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, carouselIllu, counterImg, quouteImg, tesmonialIllustrator, blogImg1, footerImg }

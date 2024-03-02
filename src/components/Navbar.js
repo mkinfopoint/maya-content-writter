@@ -1,5 +1,5 @@
 import React from 'react'
-import { elepse, logo } from '../assets/images'
+import { elepse, logo, starShade } from '../assets/images'
 import { GiDiamonds } from '../config/icons'
 const Navbar = () => {
     return (
@@ -16,19 +16,19 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Home <span><GiDiamonds /></span></a>
+                                <a className="nav-link" href="#">Home <span><img src={starShade} className='star' alt="star" /></span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Me <span><GiDiamonds /></span></a>
+                                <a className="nav-link" href="#">About Me <span><img src={starShade} className='star' alt="star" /></span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Services <span><GiDiamonds /></span></a>
+                                <a className="nav-link" href="#">Services <span><img src={starShade} className='star' alt="star" /></span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Testimonials<span><GiDiamonds /></span></a>
+                                <a className="nav-link" href="#">Testimonials<span><img src={starShade} className='star' alt="star" /></span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Blog <span><GiDiamonds /></span></a>
+                                <a className="nav-link" href="#">Blog <span><img src={starShade} className='star' alt="star" /></span></a>
                             </li>
                         </ul>
                     </div>

@@ -41,6 +41,18 @@
 .webnavbar ul .nav-item a {
   color: #C47D3D;
 }
+.webnavbar ul .nav-item a .star {
+  width: 20px;
+  display: none;
+}
+.webnavbar ul .nav-item a:hover {
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+}
+.webnavbar ul .nav-item a:hover .star {
+  transition: 0.5s ease-in-out;
+  display: initial;
+}
 
 .total_banner_sec {
   padding-top: 180px;
@@ -51,6 +63,10 @@
   font-family: "Ninetail";
   color: #C47D3D;
   font-size: 48px;
+}
+.total_banner_sec .head span {
+  font-family: "Ninetail";
+  color: #2C2C2C;
 }
 .total_banner_sec .quote {
   font-size: 52px;
