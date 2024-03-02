@@ -988,4 +988,8 @@
 .total_footer_sec .total_contentsec .right_sec .address_sec a .icon {
   margin-left: 20px;
   color: #C47D3D;
+}
+
+.rfm-marquee-container {
+  overflow-y: hidden !important;
 }/*# sourceMappingURL=style.css.map */
