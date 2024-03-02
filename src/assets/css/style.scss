@@ -8,8 +8,14 @@
     src: url("../../assets/fonts/THICCCBOI-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Thiccboi_Bold";
+    src: url("../../assets/fonts/THICCCBOI-Bold.woff2");
+}
+
 $primary_font: "Thiccboi";
 $secondary_font: "Ninetail";
+$bold_font: "Thiccboi_Bold";
 
 * {
     padding: 0;

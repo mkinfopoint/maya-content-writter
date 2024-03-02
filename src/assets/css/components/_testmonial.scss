@@ -1,0 +1,21 @@
+.total_testimonialsec {
+    padding: 50px 0px;
+    background-color: $primary_background;
+
+    .head_star_sectwo {
+        justify-content: center;
+
+        h1 {
+            color: $primary_color;
+        }
+    }
+
+    .header_sec {
+        text-align: center;
+
+        p {
+            font-size: 18px;
+            color: $primary_color;
+        }
+    }
+}

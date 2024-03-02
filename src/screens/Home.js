@@ -5,6 +5,8 @@ import MarqueeSec from '../components/MarqueeSec'
 import WhyWork from '../components/WhyWork'
 import Unleashing from '../components/Unleashing'
 import ServiceOffered from '../components/ServiceOffered'
+import DidBeforeSec from '../components/DidBeforeSec'
+import Testimonial from '../components/Testimonial'
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <WhyWork />
             <Unleashing />
             <ServiceOffered />
+            <DidBeforeSec />
+            <Testimonial />
         </>
     )
 }

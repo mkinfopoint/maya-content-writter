@@ -1,33 +1,7 @@
 .total_marquesec {
     padding: 50px 0px;
 
-    .marquee_sec {
-        .first_head {
-            display: flex;
-            align-items: center;
 
-            h1 {
-                margin-bottom: 0;
-                font-family: $secondary_font;
-                color: $primary_color;
-            }
-
-            span {
-                display: block;
-                margin-right: 10px;
-                margin-left: 10px;
-                font-family: $secondary_font;
-                color: $text_black;
-
-                svg {
-                    font-size: 26px;
-                }
-            }
-
-        }
-
-
-    }
 
     .writer_sec {
         margin-top: 50px;
@@ -120,4 +94,32 @@
             }
         }
     }
+}
+
+.marquee_sec {
+    .first_head {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            margin-bottom: 0;
+            font-family: $secondary_font;
+            color: $primary_color;
+        }
+
+        span {
+            display: block;
+            margin-right: 10px;
+            margin-left: 10px;
+            font-family: $secondary_font;
+            color: $text_black;
+
+            svg {
+                font-size: 26px;
+            }
+        }
+
+    }
+
+
 }

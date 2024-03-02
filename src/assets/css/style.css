@@ -6,6 +6,10 @@
   font-family: "Thiccboi";
   src: url("../../assets/fonts/THICCCBOI-Regular.ttf");
 }
+@font-face {
+  font-family: "Thiccboi_Bold";
+  src: url("../../assets/fonts/THICCCBOI-Bold.woff2");
+}
 * {
   padding: 0;
   margin: 0;
@@ -87,25 +91,6 @@
 .total_marquesec {
   padding: 50px 0px;
 }
-.total_marquesec .marquee_sec .first_head {
-  display: flex;
-  align-items: center;
-}
-.total_marquesec .marquee_sec .first_head h1 {
-  margin-bottom: 0;
-  font-family: "Ninetail";
-  color: #C47D3D;
-}
-.total_marquesec .marquee_sec .first_head span {
-  display: block;
-  margin-right: 10px;
-  margin-left: 10px;
-  font-family: "Ninetail";
-  color: #000000;
-}
-.total_marquesec .marquee_sec .first_head span svg {
-  font-size: 26px;
-}
 .total_marquesec .writer_sec {
   margin-top: 50px;
   position: relative;
@@ -173,6 +158,26 @@
   color: #C47D3D;
   border: 1px solid #C47D3D;
   transition: 0.3s ease-in-out;
+}
+
+.marquee_sec .first_head {
+  display: flex;
+  align-items: center;
+}
+.marquee_sec .first_head h1 {
+  margin-bottom: 0;
+  font-family: "Ninetail";
+  color: #C47D3D;
+}
+.marquee_sec .first_head span {
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: "Ninetail";
+  color: #000000;
+}
+.marquee_sec .first_head span svg {
+  font-size: 26px;
 }
 
 .workwithus_total_sec {
@@ -463,4 +468,97 @@
 }
 .service_offered_total_sec .serve_carousel .owl-theme .owl-dots .owl-dot span {
   background: #F2E2D4;
+}
+
+.whatdid_total_sec {
+  padding: 50px;
+}
+.whatdid_total_sec .content_container {
+  padding: 50px 0px;
+}
+.whatdid_total_sec .content_container .img_sec {
+  position: relative;
+}
+.whatdid_total_sec .content_container .img_sec img {
+  width: 100%;
+}
+.whatdid_total_sec .content_container .img_sec .shedule_btn {
+  position: absolute;
+  right: 22%;
+  bottom: -3.5%;
+  background-color: #C47D3D;
+  color: #FFFFFF;
+  font-family: "Ninetail";
+  border-radius: 25px;
+  padding: 5px 35px;
+  font-size: 16px;
+  border: 1px solid #C47D3D;
+}
+.whatdid_total_sec .content_container .img_sec .shedule_btn:hover {
+  background-color: #FFFFFF;
+  color: #C47D3D;
+  border: 1px solid #C47D3D;
+  transition: 0.3s ease-in-out;
+}
+.whatdid_total_sec .content_container .total_content_sec .exp_head {
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.whatdid_total_sec .content_container .total_content_sec .exp_head span {
+  color: #C47D3D;
+}
+.whatdid_total_sec .content_container .total_content_sec p {
+  text-align: justify;
+  margin-left: 10px;
+  width: 80%;
+}
+.whatdid_total_sec .content_container .total_content_sec .counter_sec {
+  text-align: center;
+}
+.whatdid_total_sec .content_container .total_content_sec .counter_sec h2 {
+  color: #000000;
+  font-weight: 800;
+  margin-left: 10px;
+  font-family: "Thiccboi_Bold";
+}
+.whatdid_total_sec .content_container .total_content_sec .counter_sec .align_para {
+  text-align: center;
+  width: auto !important;
+  color: #C47D3D;
+  font-weight: 600;
+}
+
+.head_star_sec {
+  display: flex;
+  align-items: center;
+}
+.head_star_sec h1 {
+  font-family: "Ninetail";
+  margin-bottom: 0;
+}
+.head_star_sec span {
+  font-size: 22px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.total_testimonialsec {
+  padding: 50px 0px;
+  background-color: #FFF8F3;
+}
+.total_testimonialsec .head_star_sectwo {
+  justify-content: center;
+}
+.total_testimonialsec .head_star_sectwo h1 {
+  color: #C47D3D;
+}
+.total_testimonialsec .header_sec {
+  text-align: center;
+}
+.total_testimonialsec .header_sec p {
+  font-size: 18px;
+  color: #C47D3D;
 }/*# sourceMappingURL=style.css.map */
