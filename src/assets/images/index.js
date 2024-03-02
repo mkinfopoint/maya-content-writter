@@ -15,5 +15,7 @@ import illuImg2 from './workillu2.png';
 import unleashImg from './unleash.png';
 import serviceImg1 from './servicesimg1.png';
 import carouselIllu from './carousel_illustrator.png';
-
-export { logo, elepse, proImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, carouselIllu }
+import counterImg from './counter.png';
+import quouteImg from './quote.png';
+import tesmonialIllustrator from './temonialimg.png';
+export { logo, elepse, proImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, carouselIllu, counterImg, quouteImg, tesmonialIllustrator }

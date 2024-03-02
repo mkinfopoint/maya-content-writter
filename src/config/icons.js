@@ -1,3 +1,4 @@
 // all icons import here
 import { GiDiamonds } from "react-icons/gi";
-export { GiDiamonds }
+import { FaStar } from "react-icons/fa";
+export { GiDiamonds, FaStar }

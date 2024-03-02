@@ -514,6 +514,15 @@
   margin-left: 10px;
   width: 80%;
 }
+.whatdid_total_sec .content_container .total_content_sec .counted_row {
+  position: relative;
+}
+.whatdid_total_sec .content_container .total_content_sec .counted_row .divide_img {
+  position: absolute;
+  width: 38%;
+  left: 6%;
+  top: -6%;
+}
 .whatdid_total_sec .content_container .total_content_sec .counter_sec {
   text-align: center;
 }

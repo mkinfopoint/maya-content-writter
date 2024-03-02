@@ -50,6 +50,17 @@
                 width: 80%;
             }
 
+            .counted_row {
+                position: relative;
+
+                .divide_img {
+                    position: absolute;
+                    width: 38%;
+                    left: 6%;
+                    top: -6%;
+                }
+            }
+
             .counter_sec {
                 text-align: center;
 
