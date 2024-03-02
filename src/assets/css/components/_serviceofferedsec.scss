@@ -1,0 +1,168 @@
+.service_offered_total_sec {
+    padding: 50px 0px;
+    background-color: $primary_background;
+
+    .heading_sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 50px;
+
+        .heading {
+            color: $primary_color;
+            text-align: center;
+            font-family: $secondary_font;
+            margin-bottom: 0;
+        }
+
+        span {
+            display: block;
+            font-size: 16px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .seeall_btn {
+            position: absolute;
+            right: 0;
+            background-color: $primary_color;
+            color: $text_white;
+            font-family: $secondary_font;
+            border-radius: 25px;
+            padding: 5px 35px;
+            font-size: 16px;
+            border: 1px solid $primary_color;
+
+
+            &:hover {
+                background-color: $text_white;
+                color: $primary_color;
+                border: 1px solid $primary_color;
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+
+    .serve_carousel {
+        position: relative;
+
+        .car_img {
+            position: absolute;
+            z-index: 2 !important;
+            width: 200px;
+            right: -3%;
+            bottom: 3%;
+        }
+
+        .servicesoffered_card {
+            width: 80%;
+            margin: auto;
+            // border: .5px solid $primary_color;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: -3px 3px 17px 0px #c47d3d96;
+            background-color: $text_white;
+
+            h6 {
+                font-size: 18px;
+                color: $text_black;
+                font-weight: 600;
+                margin-top: 20px;
+                border-bottom: 1px solid $primary_color;
+                padding-bottom: 10px;
+            }
+
+            p {
+                text-align: justify;
+                font-size: 14px;
+            }
+
+            .begun_btn {
+                background-color: $dark_background;
+                font-family: $secondary_font;
+                color: $text_white;
+                font-weight: 600;
+                font-size: 18px;
+                border-radius: 25px;
+                padding: 5px 30px;
+                border: 1px solid $dark_background;
+
+                &:hover {
+                    border: 1px solid $dark_background;
+                    background-color: transparent;
+                    color: $dark_background;
+                    transition: .5s ease-in-out;
+                }
+            }
+        }
+
+        .owl-carousel {
+            z-index: 4 !important;
+        }
+
+        .owl-carousel .owl-stage-outer {
+            padding: 50px 0px !important;
+        }
+
+        .owl-carousel.owl-drag .owl-item.center .item {
+            // background: rgb(25, 0, 255);
+            transform: scale(1.2);
+            padding: 0px !important;
+            overflow: visible !important;
+            // border: 1px solid #0048f0;
+            border-radius: 15px;
+            margin: 10px !important;
+        }
+
+        .owl-carousel .owl-nav button.owl-prev {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid $primary_color;
+            position: absolute;
+            bottom: 50%;
+            left: -3%;
+        }
+
+        .owl-carousel .owl-nav button.owl-next {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid $primary_color;
+            position: absolute;
+            bottom: 50%;
+            right: -3%;
+        }
+
+        .owl-theme .owl-nav [class*="owl-"] {
+            background: $text_white !important;
+            padding: 0 !important;
+            color: $primary_color !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .owl-carousel .owl-nav.disabled,
+        .owl-carousel .owl-dots.disabled {
+            display: block !important;
+        }
+
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background-color: $primary_color;
+        }
+
+        .owl-theme .owl-dots .owl-dot span {
+            background: #F2E2D4;
+        }
+
+    }
+}

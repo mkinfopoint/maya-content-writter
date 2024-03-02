@@ -1,6 +1,6 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
-import { GiDiamonds } from '../config/icons'
+import { GiDiamonds } from '../config/icons';
 import { listIconImg, writer, starImg, marqueeIllustratorImg } from '../assets/images';
 
 const MarqueeSec = () => {

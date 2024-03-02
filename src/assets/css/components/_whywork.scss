@@ -1,0 +1,72 @@
+.workwithus_total_sec {
+    background-color: $primary_background;
+    padding: 100px 0px;
+    position: relative;
+
+    .illuimg1 {
+        position: absolute;
+        width: 84px;
+        right: 0;
+        top: -14%;
+    }
+
+    .illuimg2 {
+        position: absolute;
+        width: 50px;
+        bottom: 3%;
+    }
+
+    .heading {
+        font-family: $secondary_font;
+        color: $primary_color;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 70px;
+
+        span {
+            color: $text_black;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .toalcard {
+        display: flex;
+        align-items: center;
+
+        .work_card {
+            text-align: center;
+
+            img {
+                width: 80px;
+            }
+
+            h6 {
+                color: $text_black;
+                font-weight: 600;
+                margin-bottom: 0;
+                width: 55%;
+                margin: auto;
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                width: 70%;
+                margin: auto;
+                margin-top: 20px;
+            }
+
+            .line {
+                img {
+                    width: initial;
+
+                    &:last-child {
+                        display: none;
+                    }
+                }
+
+            }
+        }
+    }
+}
