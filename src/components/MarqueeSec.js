@@ -12,7 +12,6 @@ const MarqueeSec = () => {
                     <img className='illu' src={marqueeIllustratorImg} alt="" />
                     <div className="container">
                         <div className="row marque_row">
-
                             <div className="col-lg-4 col-sm-12 col-md-6">
                                 <div className="writer_img">
                                     <img src={writer} alt="writer" />

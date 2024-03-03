@@ -21,5 +21,5 @@ import quouteImg from './quote.png';
 import tesmonialIllustrator from './temonialimg.png';
 import blogImg1 from './blogimg.png';
 import footerImg from './footerimg.png';
-
-export { logo, starShade, elepse, proImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, carouselIllu, counterImg, quouteImg, tesmonialIllustrator, blogImg1, footerImg }
+import orangequoteImg from './orangequte.png';
+export { logo, starShade, elepse, proImg, orangequoteImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, carouselIllu, counterImg, quouteImg, tesmonialIllustrator, blogImg1, footerImg }

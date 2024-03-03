@@ -123,3 +123,19 @@
 
 
 }
+
+@media only screen and (max-width: 991.98px) {
+    .marque_row {
+        display: flex;
+        align-items: center;
+    }
+
+    .total_marquesec .writer_sec .content_sec {
+        margin-left: 0;
+    }
+
+    .total_marquesec .writer_sec .content_sec {
+        padding: 0;
+    }
+
+}

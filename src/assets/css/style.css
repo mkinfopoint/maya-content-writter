@@ -54,6 +54,11 @@
   display: initial;
 }
 
+@media only screen and (max-width: 600px) {
+  .webnavbar {
+    padding: 0;
+  }
+}
 .total_banner_sec {
   padding-top: 180px;
   background-color: #FFF8F3;
@@ -67,6 +72,12 @@
 .total_banner_sec .head span {
   font-family: "Ninetail";
   color: #2C2C2C;
+}
+.total_banner_sec .orange_quote {
+  width: 25px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .total_banner_sec .quote {
   font-size: 52px;
@@ -96,7 +107,14 @@
   border-radius: 25px;
   font-size: 26px;
   padding: 8px 50px;
-  box-shadow: 1px 1px 1px 0px #C47D3D;
+  border: 4px solid #FFFFFF;
+  outline: 2px solid rgba(196, 125, 61, 0.3098039216);
+}
+.total_banner_sec .btnsec .hire_btn:hover {
+  background-color: transparent;
+  border: 4px solid transparent;
+  color: #C47D3D;
+  transition: 0.5s ease-in-out;
 }
 .total_banner_sec .img_sec img {
   width: 80%;
@@ -104,6 +122,56 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 991.98px) {
+  .total_banner_sec {
+    height: 60vh;
+    padding-top: 160px;
+  }
+  .total_banner_sec .head {
+    font-size: 36px;
+  }
+  .total_banner_sec .btnsec .hire_btn {
+    font-size: 22px;
+  }
+  .webnavbar .elipse {
+    position: absolute;
+    left: 0;
+    width: 33%;
+  }
+  .total_banner_sec .img_sec img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .total_banner_sec {
+    padding-top: 60px;
+    height: 90vh;
+  }
+  .banner_row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .total_banner_sec .img_sec img {
+    width: 65%;
+  }
+  .total_banner_sec .head {
+    font-size: 24px;
+  }
+  .total_banner_sec .parra_sec h6 {
+    font-size: 14px;
+  }
+  .total_banner_sec .orange_quote {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .total_banner_sec .parra_sec p {
+    font-size: 14px;
+  }
+  .total_banner_sec .btnsec .hire_btn {
+    font-size: 16px;
+    padding: 2px 25px;
+  }
+}
 .total_marquesec {
   padding: 50px 0px;
 }
@@ -196,6 +264,18 @@
   font-size: 26px;
 }
 
+@media only screen and (max-width: 991.98px) {
+  .marque_row {
+    display: flex;
+    align-items: center;
+  }
+  .total_marquesec .writer_sec .content_sec {
+    margin-left: 0;
+  }
+  .total_marquesec .writer_sec .content_sec {
+    padding: 0;
+  }
+}
 .workwithus_total_sec {
   background-color: #FFF8F3;
   padding: 100px 0px;
@@ -898,10 +978,11 @@
   margin-left: 10px;
 }
 
-.marquee_sec {
-  padding: 50px 0px;
+@media only screen and (max-width: 991.98px) {
+  .marquee_sec {
+    padding: 0px 0px;
+  }
 }
-
 .total_footer_sec {
   background-color: #FFF8F3;
   padding: 50px 0px;
