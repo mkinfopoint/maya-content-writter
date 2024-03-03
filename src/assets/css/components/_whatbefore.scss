@@ -33,6 +33,15 @@
         }
 
         .total_content_sec {
+            position: relative;
+
+            .whatbefore_illu {
+                position: absolute;
+                width: 160px;
+                right: 0%;
+                top: 23%;
+            }
+
             .exp_head {
                 font-weight: 600;
                 margin-left: 10px;

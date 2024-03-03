@@ -12,13 +12,20 @@
         left: 0;
     }
 
+    .navbar-toggler {
+        border: 1px solid $primary_color !important;
+        box-shadow: none !important;
+        outline: none;
+        width: 50px;
+        color: #C47D3D;
+        font-size: 22px;
+    }
+
     ul {
         margin-left: auto;
 
         .nav-item {
             margin-right: 30px;
-
-
 
             &:last-child {
                 margin-right: 0;
@@ -36,22 +43,72 @@
                     transition: 0.5s ease-in-out;
                     font-weight: 600;
 
-
                     .star {
                         transition: 0.5s ease-in-out;
                         display: initial;
                     }
+
+                    .box_shadows {
+                        text-shadow: -1px 1px $primary_color;
+                        // box-shadow: 1px 1px 1px 0px #C47D3D;
+                    }
                 }
             }
 
+            .nav-link .active {
+                color: $primary_color;
+
+                .star {
+                    transition: 0.5s ease-in-out;
+                    display: initial;
+                }
+
+                .box_shadows {
+                    text-shadow: -1px 1px $primary_color;
+                    // box-shadow: 1px 1px 1px 0px #C47D3D;
+                }
+            }
         }
     }
 }
 
-@media only screen and (max-width: 991.98px) {}
+@media only screen and (max-width: 991.98px) {
+    .webnavbar .elipse {
+        position: absolute;
+        left: 0;
+        width: 33%;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .webnavbar {
         padding: 0;
+    }
+
+    .webnavbar .elipse {
+        position: absolute;
+        left: 0;
+        width: 60%;
+        display: none;
+    }
+
+    .webnavbar {
+        box-shadow: 0px 0px 2px #C47D3D;
+    }
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: $primary_color;
+
+    .star {
+        transition: 0.5s ease-in-out;
+        display: initial;
+    }
+
+    .box_shadows {
+        text-shadow: -1px 1px $primary_color;
+        // box-shadow: 1px 1px 1px 0px #C47D3D;
     }
 }

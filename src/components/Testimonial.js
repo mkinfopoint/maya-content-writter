@@ -31,13 +31,13 @@ const Testimonial = () => {
         <>
             <div className="total_testimonialsec">
                 <div className="header_sec">
-                    <div className="head_star_sec head_star_sectwo">
+                    <div className="head_star_sec head_star_sectwo" data-aos="fade-right">
                         <span><GiDiamonds /></span>    <h1> Testimonials</h1> <span><GiDiamonds /></span>
                     </div>
                     <p>that speak to my results</p>
                 </div>
                 <div className="container">
-                    <div className="total_carouselsec">
+                    <div className="total_carouselsec" data-aos="fade-down">
                         <OwlCarousel
                             className="owl-carousel owl-theme testimonial_carousel"
                             margin={isMobile() ? 10 : 80}

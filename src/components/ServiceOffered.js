@@ -24,9 +24,9 @@ const ServiceOffered = () => {
     ]
     return (
         <>
-            <div className="service_offered_total_sec">
+            <div className="service_offered_total_sec" >
                 <div className="container">
-                    <div className="heading_sec">
+                    <div className="heading_sec" data-aos="fade-right">
                         <span><GiDiamonds /></span>
                         <h1 className='heading' >Services Offered </h1>
                         <span><GiDiamonds /></span>
@@ -34,7 +34,7 @@ const ServiceOffered = () => {
                             See All
                         </button>
                     </div>
-                    <div className="serve_carousel">
+                    <div className="serve_carousel" data-aos="fade-up">
                         <img src={carouselIllu} className='car_img' alt="carousel Img" />
                         <OwlCarousel
                             className="owl-carousel owl-theme"

@@ -41,11 +41,11 @@ const BlogSec = () => {
                 <button className="see_allbtn btn">
                     See  All <GiDiamonds />
                 </button>
-                <div className="head_star_sec head_star_sectwo">
+                <div className="head_star_sec head_star_sectwo" data-aos="fade-right">
                     <span><GiDiamonds /></span>    <h1>From My Blog</h1> <span><GiDiamonds /></span>
                 </div>
                 <div className="container">
-                    <div className="total_carouselsec">
+                    <div className="total_carouselsec" data-aos="fade-down">
                         <OwlCarousel
                             className="owl-theme blog_carousel"
                             autoplay={true}
