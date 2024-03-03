@@ -39,7 +39,7 @@ const Unleashing = () => {
         <>
             <div className="unleashing_total_sec">
                 <div className="container">
-                    <div className="row">
+                    <div className="row unleashrow">
                         <div className="col-lg-5 col-md-6 col-sm-12">
                             <div className="img_card">
                                 <img src={unleashImg} alt="unleash" />

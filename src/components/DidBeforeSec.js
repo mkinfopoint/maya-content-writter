@@ -3,6 +3,8 @@ import MarqueRunning from './MarqueRunning'
 import { counterImg, writer } from '../assets/images'
 import { GiDiamonds } from '../config/icons';
 import CountUp from 'react-countup';
+import isMobile from "is-mobile";
+
 const DidBeforeSec = () => {
     return (
         <>
@@ -21,7 +23,7 @@ const DidBeforeSec = () => {
                             </div>
                             <div className="col-lg-8 col-md-6 col-sm-12">
                                 <div className="total_content_sec">
-                                    <div className="head_star_sec">
+                                    <div className="head_star_sec head_star_secthree">
                                         <span><GiDiamonds /></span>    <h1> What I did before?</h1>
                                     </div>
                                     <h5 className="exp_head">
@@ -32,8 +34,8 @@ const DidBeforeSec = () => {
                                     </p>
                                     <div className="counted_row">
                                         <img src={counterImg} alt="divide_img" className="divide_img" />
-                                        <div className="row">
-                                            <div className="col-3">
+                                        <div className="row counter_row">
+                                            <div className={isMobile() ? "counter_col" : "col-lg-3 col-md-6 col-sm-6"}>
                                                 <div className="counter_sec">
                                                     <h2>										<CountUp end={5262} duration={5} enableScrollSpy /> +
                                                     </h2>
@@ -41,7 +43,7 @@ const DidBeforeSec = () => {
                                                     <p className='align_para'>Satisfied Clients</p>
                                                 </div>
                                             </div>
-                                            <div className="col-3">
+                                            <div className={isMobile() ? "counter_col" : "col-lg-3 col-md-6 col-sm-6"}>
                                                 <div className="counter_sec">
                                                     <h2>										<CountUp end={1526} duration={5} enableScrollSpy /> +
                                                     </h2>
@@ -49,15 +51,15 @@ const DidBeforeSec = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="row">
-                                            <div className="col-3">
+                                        <div className="row counter_row">
+                                            <div className={isMobile() ? "counter_col" : "col-lg-3 col-md-6 col-sm-6"}>
                                                 <div className="counter_sec">
                                                     <h2>										<CountUp end={150} duration={5} enableScrollSpy /> +
                                                     </h2>
                                                     <p className='align_para'>Books Published</p>
                                                 </div>
                                             </div>
-                                            <div className="col-3">
+                                            <div className={isMobile() ? "counter_col" : "col-lg-3 col-md-6 col-sm-6"}>
                                                 <div className="counter_sec">
                                                     <h2>										<CountUp end={10} duration={5} enableScrollSpy /> +
                                                     </h2>

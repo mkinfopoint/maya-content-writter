@@ -166,3 +166,23 @@
 
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .service_offered_total_sec .heading_sec .seeall_btn {
+
+        right: 32%;
+        bottom: -46px;
+    }
+
+    .service_offered_total_sec .serve_carousel .owl-carousel .owl-nav button.owl-prev {
+        left: -3.5%;
+    }
+
+    .service_offered_total_sec .serve_carousel .owl-carousel .owl-nav button.owl-next {
+        right: -4%;
+    }
+
+    .service_offered_total_sec .serve_carousel .servicesoffered_card {
+        padding: 10px;
+    }
+}

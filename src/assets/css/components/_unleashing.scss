@@ -104,3 +104,57 @@
         }
     }
 }
+
+@media only screen and (max-width: 991.98px) {
+    .unleashing_total_sec .img_card img {
+        width: 100%;
+    }
+
+    .unleashing_total_sec .img_card .readmore_btn {
+        left: 35%;
+    }
+
+    .unleashrow {
+        display: flex;
+        align-items: center;
+    }
+
+    .unleashing_total_sec .service_carousel .serivices_card .features_sec h6 {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .unleashing_total_sec .service_carousel .serivices_card .service_heading {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {}
+
+@media only screen and (max-width: 600px) {
+    .unleashing_total_sec .service_carousel .serivices_card {
+        margin-top: 20px;
+    }
+
+    .unleashing_total_sec .service_carousel .serivices_card .service_heading {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .owl-carousel .owl-nav.disabled {
+        display: block;
+    }
+
+    .unleashing_total_sec .owl-carousel .owl-nav button.owl-next {
+        bottom: -18%;
+        left: 50%;
+        font-size: 27px;
+
+    }
+
+    .unleashing_total_sec .owl-carousel .owl-nav button.owl-prev {
+        font-size: 27px;
+        bottom: -18%;
+        left: 36%;
+    }
+}

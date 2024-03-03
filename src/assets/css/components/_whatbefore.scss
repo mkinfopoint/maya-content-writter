@@ -1,5 +1,5 @@
 .whatdid_total_sec {
-    padding: 50px;
+    padding: 50px 0px;
 
     .content_container {
         padding: 50px 0px;
@@ -96,5 +96,61 @@
         margin-bottom: 0;
         margin-right: 10px;
         margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .what_didrow {
+        display: flex;
+        align-items: center;
+    }
+
+    .whatdid_total_sec .content_container .img_sec .shedule_btn {
+        right: 13%;
+        bottom: -4.5%;
+    }
+
+    .whatdid_total_sec .content_container .total_content_sec p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .whatdid_total_sec .content_container .img_sec .shedule_btn {
+        right: 16%;
+        bottom: -4.5%;
+    }
+
+    .head_star_secthree {
+        margin-top: 30px;
+
+        span {
+            margin-left: 0;
+        }
+    }
+
+    .whatdid_total_sec .content_container .total_content_sec .exp_head {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .whatdid_total_sec .content_container .total_content_sec p {
+        margin-left: 0;
+    }
+
+    .counter_row {
+        display: flex;
+
+        .counter_col {
+            width: 48%;
+        }
+    }
+
+    .whatdid_total_sec .content_container .total_content_sec .counted_row .divide_img {
+        position: absolute;
+        width: 84%;
+        left: 6%;
+        top: -8%;
     }
 }

@@ -39,7 +39,7 @@ const WhyWork = () => {
                         {
                             workData?.map((dat, index) => {
                                 return (
-                                    <div className="col-lg-3 col-md-4 col-sm-12">
+                                    <div className="col-lg-3 col-md-6 col-sm-12">
                                         <div className="toalcard">
                                             <div key={index} className="work_card">
                                                 <img src={dat?.img} alt="work1" className="top_img" />

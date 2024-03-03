@@ -70,3 +70,38 @@
         }
     }
 }
+
+@media only screen and (max-width: 991.98px) {
+    .workwithus_total_sec .illuimg1 {
+        top: -9%;
+    }
+
+    .workwithus_total_sec {
+        padding: 50px 0px;
+    }
+
+    .workrow {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {}
+
+@media only screen and (max-width: 600px) {
+    .workwithus_total_sec .illuimg1 {
+        top: -7%;
+    }
+
+    .workwithus_total_sec .toalcard .line {
+        display: none;
+    }
+
+    .workwithus_total_sec .toalcard .work_card {
+        margin-bottom: 20px;
+    }
+
+    .workwithus_total_sec .illuimg2 {
+        bottom: -3%;
+    }
+}
