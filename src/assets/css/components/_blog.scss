@@ -122,10 +122,24 @@
     }
 }
 
+.marquee_sec2 {
+    padding: 50px 0px;
+}
+
 
 
 @media only screen and (max-width: 991.98px) {
     .marquee_sec {
         padding: 0px 0px;
+    }
+
+    .total_blogsec .see_allbtn {
+        right: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .total_blogsec .see_allbtn {
+        right: 30%;
     }
 }

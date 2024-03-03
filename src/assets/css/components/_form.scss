@@ -116,3 +116,45 @@
 
     }
 }
+
+
+@media only screen and (max-width: 991.98px) {
+    .total_formsec .mail_form {
+        width: 80%;
+    }
+
+    .total_formsec .mail_form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .total_formsec .mail_form .achive_sec .first_sec {
+        text-align: left;
+        background-color: #C47D3D;
+        padding: 5px 2px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-right: 4px;
+    }
+
+    .total_formsec .mail_form .achive_sec .first_sec h6 {
+        font-size: 8px;
+    }
+
+    .total_formsec .mail_form .achive_sec .second_sec h6 {
+        font-size: 8px;
+    }
+
+    .total_formsec .mail_form .achive_sec span {
+        font-size: 8px;
+    }
+
+    .total_formsec .mail_form .achive_sec .second_sec:hover {
+        background-color: #C47D3D;
+        padding: 5px 2px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        transition: 0.5s ease-in-out;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import { GiDiamonds, FaStar } from '../config/icons';
 import OwlCarousel from "react-owl-carousel";
 import { quouteImg, tesmonialIllustrator } from '../assets/images';
+import isMobile from 'is-mobile';
 
 const Testimonial = () => {
     const tetimonialData = [
@@ -39,9 +40,9 @@ const Testimonial = () => {
                     <div className="total_carouselsec">
                         <OwlCarousel
                             className="owl-carousel owl-theme testimonial_carousel"
-                            margin={80}
+                            margin={isMobile() ? 10 : 80}
                             center={true}
-                            autoplay={true}
+                            autoplay={false}
                             loop
                             dots={true}
                             nav={true}

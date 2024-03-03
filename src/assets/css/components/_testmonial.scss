@@ -159,4 +159,34 @@
     }
 }
 
-@media only screen and (max-width: 991.98px) {}
+@media only screen and (max-width: 991.98px) {
+    .total_testimonialsec .total_carouselsec .owl-carousel.owl-drag .owl-item.center .item {
+        transform: scale(1);
+        padding: 0px !important;
+        overflow: visible !important;
+        border-radius: 15px;
+        margin: 10px !important;
+    }
+
+
+
+    .total_testimonialsec .total_carouselsec .testimonial_carousel .testimonial_card .illu {
+        position: absolute;
+        width: 40px;
+        right: -1%;
+        top: -7%;
+        display: none;
+    }
+
+    .owl-theme .owl-nav {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .total_testimonialsec .total_carouselsec .testimonial_carousel .testimonial_card {
+        padding: 15px;
+    }
+}

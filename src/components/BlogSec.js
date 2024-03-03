@@ -110,7 +110,7 @@ const BlogSec = () => {
                     </div>
                 </div>
             </div>
-            <div className="marquee_sec">
+            <div className="marquee_sec2">
                 <MarqueRunning />
             </div>
         </>
