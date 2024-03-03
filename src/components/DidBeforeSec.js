@@ -1,6 +1,6 @@
 import React from 'react'
 import MarqueRunning from './MarqueRunning'
-import { counterImg, writer } from '../assets/images'
+import { counterImg, writer, beforeillu } from '../assets/images'
 import { GiDiamonds } from '../config/icons';
 import CountUp from 'react-countup';
 import isMobile from "is-mobile";
@@ -13,7 +13,7 @@ const DidBeforeSec = () => {
                 <div className="content_container">
                     <div className="container">
                         <div className="row what_didrow">
-                            <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
                                 <div className="img_sec">
                                     <img src={writer} alt="writer" />
                                     <button className="btn shedule_btn">
@@ -21,8 +21,9 @@ const DidBeforeSec = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className="col-lg-8 col-md-6 col-sm-12">
+                            <div className="col-lg-8 col-md-6 col-sm-12" data-aos="fade-down">
                                 <div className="total_content_sec">
+                                    <img src={beforeillu} alt="whatbefore_illu" className="whatbefore_illu" />
                                     <div className="head_star_sec head_star_secthree">
                                         <span><GiDiamonds /></span>    <h1> What I did before?</h1>
                                     </div>
@@ -60,7 +61,7 @@ const DidBeforeSec = () => {
                                                 </div>
                                             </div>
                                             <div className={isMobile() ? "counter_col" : "col-lg-3 col-md-6 col-sm-6"}>
-                                                <div className="counter_sec">
+                                                <div id='test' className="counter_sec">
                                                     <h2>										<CountUp end={10} duration={5} enableScrollSpy /> +
                                                     </h2>
                                                     <p className='align_para'>Countries</p>

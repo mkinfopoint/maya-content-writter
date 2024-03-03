@@ -39,16 +39,16 @@ const Unleashing = () => {
         <>
             <div className="unleashing_total_sec">
                 <div className="container">
-                    <div className="row unleashrow">
+                    <div className="row unleashrow" data-aos="fade-right">
                         <div className="col-lg-5 col-md-6 col-sm-12">
                             <div className="img_card">
                                 <img src={unleashImg} alt="unleash" />
-                                <button className="btn readmore_btn">
+                                <button id='services' className="btn readmore_btn">
                                     Read More...
                                 </button>
                             </div>
                         </div>
-                        <div className="col-lg-7 col-md-6 col-sm-12">
+                        <div className="col-lg-7 col-md-6 col-sm-12" data-aos="fade-down">
                             <OwlCarousel
                                 className="owl-theme service_carousel"
                                 autoplay={true}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
 import MarqueeSec from '../components/MarqueeSec'
@@ -12,6 +12,9 @@ import BlogSec from '../components/BlogSec'
 import Footer from '../components/Footer'
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }, []);
     return (
         <>
             <Navbar />

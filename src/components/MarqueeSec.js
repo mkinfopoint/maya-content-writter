@@ -6,24 +6,24 @@ import MarqueRunning from './MarqueRunning';
 const MarqueeSec = () => {
     return (
         <>
-            <div className="total_marquesec">
+            <div className="total_marquesec" id='about'>
                 <MarqueRunning />
                 <div className="writer_sec">
                     <img className='illu' src={marqueeIllustratorImg} alt="" />
                     <div className="container">
-                        <div className="row marque_row">
+                        <div className="row marque_row" data-aos="fade-up">
                             <div className="col-lg-4 col-sm-12 col-md-6">
                                 <div className="writer_img">
                                     <img src={writer} alt="writer" />
                                 </div>
                             </div>
-                            <div className="col-lg-8 col-sm-12 col-md-6">
+                            <div className="col-lg-8 col-sm-12 col-md-6" data-aos="fade-down">
                                 <div className="content_sec">
                                     <div className="sec_one">
                                         <div className="img_sec">
                                             <img src={listIconImg} alt="list" className="illustrator" />
                                         </div>
-                                        <div className="content">
+                                        <div className="content" data-aos="fade-down">
                                             <h1>Hey, Iam <span className='name'>Audrey Joann.</span></h1>
                                             <p>where the power of words comes alive.</p>
                                         </div>

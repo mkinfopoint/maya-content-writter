@@ -33,9 +33,9 @@ const WhyWork = () => {
                 <img src={illuImg1} className='illuimg1' alt="" />
                 <img src={illuImg2} className='illuimg2' alt="" />
                 <div className="container">
-                    <h1 className='heading' ><span><GiDiamonds /></span>
+                    <h1 data-aos="fade-up" className='heading' ><span><GiDiamonds /></span>
                         Why Work With Me<span><GiDiamonds /></span></h1>
-                    <div className="workrow row">
+                    <div className="workrow row" data-aos="fade-down">
                         {
                             workData?.map((dat, index) => {
                                 return (

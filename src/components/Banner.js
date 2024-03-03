@@ -4,10 +4,10 @@ import { orangequoteImg, proImg } from '../assets/images'
 const Banner = () => {
     return (
         <>
-            <div className="total_banner_sec">
+            <div className="total_banner_sec" id='home'>
                 <div className="container">
                     <div className="row banner_row">
-                        <div className="col-lg-6 col-md-6 col-sm-12">
+                        <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
                             <h1 className='head'>
                                 Im <span>Audrey Joann,</span> <br />
                                 Content Writer
@@ -23,7 +23,7 @@ const Banner = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12">
+                        <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
                             <div className="img_sec">
                                 <img src={proImg} alt="" className="profile_img" />
                             </div>

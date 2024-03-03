@@ -2,6 +2,7 @@ import React from 'react'
 import { GiDiamonds, FaStar } from '../config/icons';
 import OwlCarousel from "react-owl-carousel";
 import { quouteImg, tesmonialIllustrator } from '../assets/images';
+import isMobile from 'is-mobile';
 
 const Testimonial = () => {
     const tetimonialData = [
@@ -30,18 +31,18 @@ const Testimonial = () => {
         <>
             <div className="total_testimonialsec">
                 <div className="header_sec">
-                    <div className="head_star_sec head_star_sectwo">
+                    <div className="head_star_sec head_star_sectwo" data-aos="fade-right">
                         <span><GiDiamonds /></span>    <h1> Testimonials</h1> <span><GiDiamonds /></span>
                     </div>
                     <p>that speak to my results</p>
                 </div>
                 <div className="container">
-                    <div className="total_carouselsec">
+                    <div className="total_carouselsec" data-aos="fade-down">
                         <OwlCarousel
                             className="owl-carousel owl-theme testimonial_carousel"
-                            margin={80}
+                            margin={isMobile() ? 10 : 80}
                             center={true}
-                            autoplay={true}
+                            autoplay={false}
                             loop
                             dots={true}
                             nav={true}
