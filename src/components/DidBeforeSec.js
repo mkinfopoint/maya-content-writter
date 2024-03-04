@@ -1,6 +1,6 @@
 import React from 'react'
 import MarqueRunning from './MarqueRunning'
-import { counterImg, writer, beforeillu } from '../assets/images'
+import { counterImg, didBeforeImg, beforeillu } from '../assets/images'
 import { GiDiamonds } from '../config/icons';
 import CountUp from 'react-countup';
 import isMobile from "is-mobile";
@@ -15,7 +15,7 @@ const DidBeforeSec = () => {
                         <div className="row what_didrow">
                             <div className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
                                 <div className="img_sec">
-                                    <img src={writer} alt="writer" />
+                                    <img src={didBeforeImg} alt="writer" />
                                     <button className="btn shedule_btn">
                                         Shedule a Session
                                     </button>
@@ -28,7 +28,7 @@ const DidBeforeSec = () => {
                                         <span><GiDiamonds /></span>    <h1> What I did before?</h1>
                                     </div>
                                     <h5 className="exp_head">
-                                        <span>5 Years</span> of Expertise in Crafting Impactful Narratives
+                                        <span>7 Years</span> of Expertise in Crafting Impactful Narratives
                                     </h5>
                                     <p>
                                         From crafting SEO-Optimized Content to creating Engaging Blog Posts and executing Precise Technical Writing. With a relentless commitment to enhancing business communication and online presence, I specialize in delivering content strategies that resonate and elevate your brand in the digital arena.

@@ -52,22 +52,28 @@ const Testimonial = () => {
                                     dots: true,
                                     nav: true,
                                     stagePadding: 20,
-                                    navText: ["<div class='nav-button owl-prev'><i class='fa-solid fa-chevron-left'></i></div>",
-                                        "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>"],
+                                    navText: [
+                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                        "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
+                                    ],
                                 },
                                 600: {
                                     items: 1,
                                     dots: true,
                                     nav: true,
-                                    navText: ["<div class='nav-button owl-prev'><i class='fa-solid fa-chevron-left'></i></div>",
-                                        "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>"],
+                                    navText: [
+                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                        "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
+                                    ],
                                 },
                                 1000: {
                                     items: 2,
                                     dots: true,
                                     nav: true,
-                                    navText: ["<div class='nav-button owl-prev'><i class='fa-solid fa-chevron-left'></i></div>",
-                                        "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>"],
+                                    navText: [
+                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                        "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
+                                    ],
                                 },
                             }}
                         >

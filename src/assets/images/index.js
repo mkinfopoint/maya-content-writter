@@ -15,12 +15,17 @@ import illuImg1 from './workillu1.png';
 import illuImg2 from './workillu2.png';
 import unleashImg from './unleash.png';
 import serviceImg1 from './servicesimg1.png';
+import serviceImg2 from './servicesimg2.png';
+import serviceImg3 from './servicesimg3.png';
 import carouselIllu from './carousel_illustrator.png';
 import counterImg from './counter.png';
 import quouteImg from './quote.png';
 import tesmonialIllustrator from './temonialimg.png';
-import blogImg1 from './blogimg.png';
+import blogImg1 from './blogimg1.png';
+import blogImg2 from './blogimg2.png';
+import blogImg3 from './blogimg3.png';
 import footerImg from './footerimg.png';
 import orangequoteImg from './orangequte.png';
 import beforeillu from './whatbeforeillu.png'
-export { logo, starShade, elepse, proImg, orangequoteImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, carouselIllu, counterImg, quouteImg, tesmonialIllustrator, blogImg1, footerImg, beforeillu }
+import didBeforeImg from './didbeforeimg.png';
+export { logo, starShade, elepse, proImg, orangequoteImg, writer, listIconImg, marqueeIllustratorImg, starImg, work1Img, work2Img, work3Img, work4Img, line, illuImg1, illuImg2, unleashImg, serviceImg1, serviceImg2, serviceImg3, carouselIllu, counterImg, quouteImg, tesmonialIllustrator, blogImg1, blogImg2, blogImg3, footerImg, beforeillu, didBeforeImg }
