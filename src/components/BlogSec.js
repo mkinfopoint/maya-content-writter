@@ -1,6 +1,6 @@
 import React from 'react'
 import { GiDiamonds } from '../config/icons';
-import { blogImg1 } from '../assets/images';
+import { blogImg1, blogImg2, blogImg3 } from '../assets/images';
 import OwlCarousel from "react-owl-carousel";
 import MarqueRunning from './MarqueRunning';
 
@@ -10,30 +10,24 @@ const BlogSec = () => {
             img: blogImg1,
             featureone: `SEO Mastery`,
             featuretwo: `Content Writing`,
-            header: `Unleashing Innovation<br/> Through Exceptional Content`,
-            parra: `As adept storytellers, our team crafts engaging narratives that transcend the ordinary, leaving an indelible mark on your audience... <a href='#' class='readmore'>Read More</a>`
+            header: `The Symbiotic Relationship<br/> of the 21st Century`,
+            parra: `Once upon a time, in the not-so-distant past, Data Analytics and Artificial Intelligence (AI) were just buzzwords that seemed exclusive to tech moguls and spy movies....<a href='#' class='readmore'>Read More</a>`
         },
         {
-            img: blogImg1,
+            img: blogImg2,
             featureone: `SEO Mastery`,
             featuretwo: `Content Writing`,
-            header: `Unleashing Innovation<br/> Through Exceptional Content`,
-            parra: `As adept storytellers, our team crafts engaging narratives that transcend the ordinary, leaving an indelible mark on your audience... <a href='#' class='readmore'>Read More</a>`
+            header: `Federated Learning: A Data<br/> Odyssey`,
+            parra: `In an era where data is as valuable as currency, the concept of federated learning emerges as a revolutionary approach in the realm of machine learning.... <a href='#' class='readmore'>Read More</a>`
         },
         {
-            img: blogImg1,
+            img: blogImg3,
             featureone: `SEO Mastery`,
             featuretwo: `Content Writing`,
-            header: `Unleashing Innovation<br/> Through Exceptional Content`,
-            parra: `As adept storytellers, our team crafts engaging narratives that transcend the ordinary, leaving an indelible mark on your audience... <a href='#' class='readmore'>Read More</a>`
+            header: `The Matrix World of Neural<br/> Networks`,
+            parra: `Neural networks, often referred to as artificial neural networks (ANNs), have revolutionised the field of machine learning and artificial intelligence (AI) in recent years.... <a href='#' class='readmore'>Read More</a>`
         },
-        {
-            img: blogImg1,
-            featureone: `SEO Mastery`,
-            featuretwo: `Content Writing`,
-            header: `Unleashing Innovation<br/> Through Exceptional Content`,
-            parra: `As adept storytellers, our team crafts engaging narratives that transcend the ordinary, leaving an indelible mark on your audience... <a href='#' class='readmore'>Read More</a>`
-        },
+
     ]
     return (
         <>
@@ -81,8 +75,8 @@ const BlogSec = () => {
                                     mergeFit: true,
                                     autoplayHoverPause: true,
                                     navText: [
-                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-angle-left'></i></div>",
-                                        "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>",
+                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                        "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
                                     ],
                                 },
                             }}

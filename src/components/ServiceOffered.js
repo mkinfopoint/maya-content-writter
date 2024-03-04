@@ -1,6 +1,6 @@
 import React from 'react';
 import { GiDiamonds } from '../config/icons';
-import { carouselIllu, serviceImg1 } from '../assets/images';
+import { carouselIllu, serviceImg1, serviceImg2, serviceImg3 } from '../assets/images';
 import OwlCarousel from "react-owl-carousel";
 
 
@@ -8,17 +8,17 @@ const ServiceOffered = () => {
     const serviceOfferedData = [
         {
             img: serviceImg1,
-            header: `Social Media`,
+            header: `Technical Contents`,
             para: `Ignite your online presence with our blog writing services, seamlessly blending captivating storytelling and strategic SEO to leave a lasting impression on your audience.`,
         },
         {
-            img: serviceImg1,
-            header: `Blog Writing`,
+            img: serviceImg2,
+            header: `Technology-based Case Studies`,
             para: `Ignite your online presence with our blog writing services, seamlessly blending captivating storytelling and strategic SEO to leave a lasting impression on your audience.`,
         },
         {
-            img: serviceImg1,
-            header: `SEO Creation`,
+            img: serviceImg3,
+            header: `Analytics, machine learning Technical Blogs`,
             para: `Ignite your online presence with our blog writing services, seamlessly blending captivating storytelling and strategic SEO to leave a lasting impression on your audience.`,
         },
     ]
@@ -50,22 +50,28 @@ const ServiceOffered = () => {
                                     dots: true,
                                     nav: true,
                                     stagePadding: 20,
-                                    navText: ["<div class='nav-button owl-prev'><i class='fa-solid fa-chevron-left'></i></div>",
-                                        "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>"],
+                                    navText: [
+                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                        "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
+                                    ],
                                 },
                                 600: {
                                     items: 2,
                                     dots: true,
                                     nav: true,
-                                    navText: ["<div class='nav-button owl-prev'><i class='fa-solid fa-chevron-left'></i></div>",
-                                        "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>"],
+                                    navText: [
+                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                        "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
+                                    ],
                                 },
                                 1000: {
                                     items: 3,
                                     dots: true,
                                     nav: true,
-                                    navText: ["<div class='nav-button owl-prev'><i class='fa-solid fa-chevron-left'></i></div>",
-                                        "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>"],
+                                    navText: [
+                                        "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                        "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
+                                    ],
                                 },
                             }}
                         >

@@ -12,7 +12,7 @@ const Footer = () => {
                                 <img src={footerImg} alt="" />
                             </div>
                             <p className="content">
-                                With <span>5 years of content writing expertise</span>, I specialize in weaving impactful narratives tailored to your needs. From SEO-optimized content to engaging blog posts and precise technical writing,
+                                With <span>7 years of content writing expertise</span>, I specialize in weaving impactful narratives tailored to your needs. From SEO-optimized content to engaging blog posts and precise technical writing,
                             </p>
                             <div className="social_sec">
                                 <span>

@@ -33,7 +33,8 @@ const MarqueeSec = () => {
                                             <img src={listIconImg} alt="list" className="illustrator" />
                                         </div>
                                         <div className="content">
-                                            <p>With <span className='parra_bold'>5 years of content writing expertise,</span> I specialize in weaving impactful narratives tailored to your needs. From SEO-optimized content to engaging blog posts and precise technical writing, I am dedicated to helping businesses not just communicate but resonate with their audience, ultimately boosting their online presence.</p>
+
+                                            <p>With over  <span className='parra_bold'>7 years of experience working </span> with data and analytics,   I have worked hands-on with data and almost everything related. When my old passion for writing met the new skills and knowledge of tech, my first thought - Why, not? So I brought them together.</p>
                                         </div>
                                     </div>
                                     <div className="sec_one">

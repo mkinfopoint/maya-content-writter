@@ -6,25 +6,23 @@ const WhyWork = () => {
     const workData = [
         {
             img: work1Img,
-            head: `Customized Content
-            Solutions`,
-            parra: `Tailored content strategies to meet your unique business needs and goals`
+            head: `Subject matter expertise`,
+            parra: `Technical content that resonates with tech professionals and common audiences a like`
         },
         {
             img: work2Img,
-            head: `SEO Mastery`,
-            parra: `Expertise in SEO best practices to increase your online visibility and organic reach`
+            head: `Customer-based content`,
+            parra: `Customised content to fulfil your requirements and meet the needs of your target audience`
         },
         {
             img: work3Img,
             head: `Timely Delivery`,
-            parra: `Commitment to deadlines, ensuring timely delivery without compromising quality`
+            parra: `Quality content crafted to meet your expectations that are delivered on time, every time`
         },
         {
             img: work4Img,
-            head: `Client Centric
-            Approach`,
-            parra: `A collaborative and transparent approach, keeping you involved at every step`
+            head: `Communication and ethics`,
+            parra: `Working with you towards your goals and challenges, to ensure that every piece of content is aligned with your objectives.`
         },
     ]
     return (
@@ -46,9 +44,11 @@ const WhyWork = () => {
                                                 <h6>{dat?.head}</h6>
                                                 <p>{dat?.parra}</p>
                                             </div>
-                                            <div className="line">
-                                                <img src={line} alt="line" />
-                                            </div>
+                                            {
+                                                index === 3 ? null : <div className="line">
+                                                    <img src={line} alt="line" />
+                                                </div>
+                                            }
                                         </div>
                                     </div>
                                 )

@@ -83,8 +83,8 @@ const Unleashing = () => {
                                         mergeFit: true,
                                         autoplayHoverPause: true,
                                         navText: [
-                                            "<div class='nav-button owl-prev'><i class='fa-solid fa-angle-left'></i></div>",
-                                            "<div class='nav-button owl-next'><i class='fa-solid fa-chevron-right'></i></div>",
+                                            "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+                                            "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
                                         ],
                                     },
                                 }}
