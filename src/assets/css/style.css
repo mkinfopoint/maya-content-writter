@@ -766,8 +766,8 @@
 .whatdid_total_sec .content_container .total_content_sec .counted_row .divide_img {
   position: absolute;
   width: 38%;
-  left: 6%;
-  top: -6%;
+  left: 5.5%;
+  top: -13%;
 }
 .whatdid_total_sec .content_container .total_content_sec .counter_sec {
   text-align: center;
@@ -842,6 +842,7 @@
     width: 84%;
     left: 6%;
     top: -8%;
+    display: none;
   }
 }
 .total_testimonialsec {
