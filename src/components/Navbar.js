@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-sm webnavbar">
                 <div className="container">
                     <a className="navbar-brand" href="#">
-                        <img src={logo} alt="" />
+                        <h1>Srinidhi.</h1>
                     </a>
                     <img src={elepse} alt="elipse" className="elipse" />
                     <button onClick={() => { setIsmobile(!mobile) }} className="navbar-toggler nav_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">

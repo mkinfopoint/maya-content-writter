@@ -4,12 +4,13 @@ import { counterImg, didBeforeImg, beforeillu } from '../assets/images'
 import { GiDiamonds } from '../config/icons';
 import CountUp from 'react-countup';
 import isMobile from "is-mobile";
+import MarqueRunningTwo from './MarqueRunningTwo';
 
 const DidBeforeSec = () => {
     return (
         <>
             <div className="whatdid_total_sec">
-                <MarqueRunning />
+                <MarqueRunningTwo />
                 <div className="content_container">
                     <div className="container">
                         <div className="row what_didrow">

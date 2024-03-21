@@ -6,23 +6,23 @@ const WhyWork = () => {
     const workData = [
         {
             img: work1Img,
-            head: `Subject matter expertise`,
-            parra: `Technical content that resonates with tech professionals and common audiences a like`
+            head: `Deep Domain Expertise`,
+            parra: `I bring unparalleled depth to my writing, thanks to a rich background and continuous learning in multiple fields. This means every piece I craft is informed, insightful, and adds real value to your audience.`
         },
         {
             img: work2Img,
-            head: `Customer-based content`,
-            parra: `Customised content to fulfil your requirements and meet the needs of your target audience`
+            head: `Personalized Approach`,
+            parra: ` I understand that your brand and your audience are unique. That's why I tailor my writing to fit your specific needs and goals, ensuring the content we create together truly resonates.`
         },
         {
             img: work3Img,
-            head: `Timely Delivery`,
-            parra: `Quality content crafted to meet your expectations that are delivered on time, every time`
+            head: `Quality and Precision`,
+            parra: `I'm committed to excellence in every word I write. From detailed research to meticulous proofreading, I ensure that your content is not only engaging but also error-free and impactful.`
         },
         {
             img: work4Img,
-            head: `Communication and ethics`,
-            parra: `Working with you towards your goals and challenges, to ensure that every piece of content is aligned with your objectives.`
+            head: `Strategic Content Creation:`,
+            parra: `Beyond just writing, I think strategically about how each piece fits into your broader business objectives. My content isn't just to be read; it's designed to perform, driving your success forward.`
         },
     ]
     return (

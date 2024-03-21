@@ -25,6 +25,10 @@
   left: 0;
   z-index: 2000;
 }
+.webnavbar h1 {
+  font-family: "Ninetail";
+  color: #C47D3D;
+}
 .webnavbar .elipse {
   position: absolute;
   left: 0;
@@ -994,6 +998,24 @@
 .total_formsec {
   padding: 50px 0;
 }
+.total_formsec .hireme_btn {
+  background-color: #C47D3D;
+  color: #FFFFFF;
+  font-family: "Ninetail";
+  border-radius: 25px;
+  padding: 5px 35px;
+  font-size: 22px;
+  border: 4px solid #FFFFFF;
+  outline: 2px solid rgba(196, 125, 61, 0.3098039216);
+  margin-top: 20px;
+}
+.total_formsec .hireme_btn:hover {
+  background-color: #FFFFFF;
+  color: #C47D3D;
+  border: 4px solid #FFFFFF;
+  outline: 2px solid rgba(196, 125, 61, 0.3098039216);
+  transition: 0.3s ease-in-out;
+}
 .total_formsec .header_sec {
   text-align: center;
 }
@@ -1264,8 +1286,25 @@
 .total_footer_sec .total_contentsec .left_sec {
   width: 30%;
 }
+.total_footer_sec .total_contentsec .left_sec .namesec {
+  width: -moz-max-content;
+  width: max-content;
+}
 .total_footer_sec .total_contentsec .left_sec .namesec img {
   width: 90%;
+}
+.total_footer_sec .total_contentsec .left_sec .namesec h1 {
+  font-family: "Ninetail";
+  font-size: 58px;
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 0;
+}
+.total_footer_sec .total_contentsec .left_sec .namesec p {
+  color: #C47D3D;
+  text-align: right;
+  padding: 0;
+  font-weight: 600;
 }
 .total_footer_sec .total_contentsec .left_sec .content {
   text-align: justify;

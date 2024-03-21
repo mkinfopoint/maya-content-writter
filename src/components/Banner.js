@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className="row banner_row">
                         <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
                             <h1 className='head'>
-                                Im <span>Audrey Joann,</span> <br />
+                                I'm <span>Srinidhi,</span> <br />
                                 Content Writer
                             </h1>
                             <img src={orangequoteImg} alt="quote" className="orange_quote" />

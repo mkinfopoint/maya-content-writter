@@ -11,7 +11,10 @@ const FormSec = () => {
                         <div className="head_star_sec head_star_sectwo">
                             <span><GiDiamonds /></span>    <h4> Let's Discuss</h4> <span><GiDiamonds /></span>
                         </div>
-                        <form className='mail_form' data-aos="fade-down">
+                        <button className="btn hireme_btn">
+                            Hire Me
+                        </button>
+                        {/* <form className='mail_form' data-aos="fade-down">
                             <div className="form-group">
                                 <input placeholder='Enter Your Email Address' type="text" className="form-control" />
                                 <button className="btn book_btn">
@@ -31,7 +34,7 @@ const FormSec = () => {
                                     <h6>Certified Content Writer</h6>
                                 </div>
                             </div>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
             </div>

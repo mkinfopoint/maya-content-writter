@@ -24,8 +24,7 @@ const MarqueeSec = () => {
                                             <img src={listIconImg} alt="list" className="illustrator" />
                                         </div>
                                         <div className="content" data-aos="fade-down">
-                                            <h1>Hey, Iam <span className='name'>Audrey Joann.</span></h1>
-                                            <p>where the power of words comes alive.</p>
+                                            <h1>Hey, Iam <span className='name'>Srinidhi</span></h1>
                                         </div>
                                     </div>
                                     <div className="sec_one">
@@ -34,7 +33,7 @@ const MarqueeSec = () => {
                                         </div>
                                         <div className="content">
 
-                                            <p>With over  <span className='parra_bold'>7 years of experience working </span> with data and analytics,   I have worked hands-on with data and almost everything related. When my old passion for writing met the new skills and knowledge of tech, my first thought - Why, not? So I brought them together.</p>
+                                            <p>Welcome to my world, where each word I write is steeped in the depth of my knowledge and passion to deliver top tier content. My name is Srinidhi, and I specialize in turning complex concepts into compelling stories, ensuring your message doesn't just reach your audience, but profoundly impacts them.</p>
                                         </div>
                                     </div>
                                     <div className="sec_one">
