@@ -2,6 +2,8 @@ import React from 'react'
 import { footerImg } from '../assets/images'
 import { MdWifiCalling3, IoMdMail, FaLocationDot } from '../config/icons';
 const Footer = () => {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
         <>
             <div className="total_footer_sec">
@@ -49,7 +51,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <h6 className="bottom_content">
-                        Copyright © 2023 <span>Srinidhi.</span> All Rights Reserved
+                        Copyright © {year} <span>Srinidhi.</span> All Rights Reserved
                     </h6>
                 </div>
             </div>
